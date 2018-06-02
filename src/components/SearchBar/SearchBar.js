@@ -24,9 +24,10 @@ class SearchBar extends React.Component {
   }
 
   getSortByClass(sortByOption) {
-    if (this.state.sortBy === sortByOption){
-      return 'active'
-    } else {return ''}
+    if (this.state.sortBy === sortByOption) {
+      return 'active';
+    }
+    return '';
   }
 
   handleSortByChange(sortByOption) {
@@ -78,4 +79,4 @@ class SearchBar extends React.Component {
   }
 }
 
-export default SearchBar
+export default SearchBar;
